@@ -1,3 +1,9 @@
+Hocam proje henüz bitmedi. Cuma günü bıraktığım haliyle sadece crud operasyonları tamamladım. Search algoritmalarını yazıcam, ondan sonra da frontend'e geçicem. Revize süresi dahilinde mutlaka bitmiş olur. Son projede de revizeye kalmazsın be bekir dediğinizi duyar gibiyim xd
+
+
+
+
+
 # Veteriner Yönetim Sistemi
 
 Veteriner Yönetim Sistemi, veteriner kliniklerinin günlük işlerini düzenlemek ve yönetmek amacıyla oluşturulmuş bir REST API'dir. Bu API ile veteriner çalışanının veteriner doktorları, müşterileri, hayvanları ve aşılarını, randevuları yönetmesi sağlanır.
