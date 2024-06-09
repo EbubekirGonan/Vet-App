@@ -37,9 +37,9 @@ public class Vaccination {
     @JoinColumn (name = "animal_id")
     private Animal animal;
 
-/*    @ManyToOne (fetch = FetchType.LAZY)
+    @ManyToOne (fetch = FetchType.LAZY)
     @JoinColumn (name = "report_id")
     private Report report;
-*/
+
 
 }

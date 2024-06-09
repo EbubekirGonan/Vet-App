@@ -4,7 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.sql.Time;
+import java.time.LocalTime;
 import java.util.List;
+
+import static java.time.LocalTime.now;
 
 @Entity
 @Table(name = "customer")
@@ -38,5 +42,9 @@ public class Customer {
     @OneToMany(mappedBy = "customer", cascade = CascadeType.REMOVE)
     @JsonIgnore
     private List<Animal> animals ;
+
+
+
+
 
 }

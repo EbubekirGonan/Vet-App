@@ -40,7 +40,7 @@ public class WorkDayService {
         Doctor doctorFromDb = doctorService.findDoctor(workDayRequest.getDoctorId());
 
         Optional<WorkDay> existWorkDayWithSameSpecs
-                = workDayRepository.findByWorkDayAndDoctor_Id(workDayRequest.getWorkDate(), workDayRequest.getDoctorId());
+                = workDayRepository.findByWorkDayAndDoctor_Id(workDayRequest.getWorkDay(), workDayRequest.getDoctorId());
 
         if (existWorkDayWithSameSpecs.isPresent()){
             throw new EntityAlreadyExistException(WorkDay.class);
@@ -57,7 +57,7 @@ public class WorkDayService {
 
         Optional<WorkDay> workDayFromDb = workDayRepository.findById(id);
         Optional<WorkDay> existOtherWorkDayFromRequest
-                = workDayRepository.findByWorkDayAndDoctor_Id(workDayRequest.getWorkDate(), workDayRequest.getDoctorId());
+                = workDayRepository.findByWorkDayAndDoctor_Id(workDayRequest.getWorkDay(), workDayRequest.getDoctorId());
 
         if (workDayFromDb.isEmpty()){
             throw new EntityNotFoundException(id, WorkDay.class);

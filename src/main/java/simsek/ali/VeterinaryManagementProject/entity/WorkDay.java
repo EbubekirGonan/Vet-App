@@ -19,7 +19,7 @@ public class WorkDay {
     @Column(name = "id")
     private Long id;
 
-    @Column(name = "work_date")
+    @Column(name = "work_day")
     private LocalDate workDay;
 
     @ManyToOne (fetch = FetchType.EAGER)
