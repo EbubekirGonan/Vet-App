@@ -1,4 +1,4 @@
-Hocam proje henüz bitmedi. Cuma günü bıraktığım haliyle sadece crud operasyonları tamamladım. Search algoritmalarını yazıcam, ondan sonra da frontend'e geçicem. Revize süresi dahilinde mutlaka bitmiş olur. Son projede de revizeye kalmazsın be bekir dediğinizi duyar gibiyim xd
+
 
 
 
